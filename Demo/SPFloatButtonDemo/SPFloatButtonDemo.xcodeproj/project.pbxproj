@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		344F00381D05470000237130 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 344F00371D05470000237130 /* main.m */; };
+		344F003B1D05470000237130 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 344F003A1D05470000237130 /* AppDelegate.m */; };
+		344F003E1D05470000237130 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344F003D1D05470000237130 /* ViewController.m */; };
+		344F00411D05470000237130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344F003F1D05470000237130 /* Main.storyboard */; };
+		344F00431D05470000237130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344F00421D05470000237130 /* Assets.xcassets */; };
+		344F00461D05470000237130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344F00441D05470000237130 /* LaunchScreen.storyboard */; };
+		344F00511D05470000237130 /* SPFloatButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 344F00501D05470000237130 /* SPFloatButtonDemoTests.m */; };
+		344F005C1D05470000237130 /* SPFloatButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 344F005B1D05470000237130 /* SPFloatButtonDemoUITests.m */; };
+		344F006E1D0547A000237130 /* SPFloatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 344F006D1D0547A000237130 /* SPFloatButton.m */; };
+		344F00741D0548E800237130 /* SPFloatButtonSubButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 344F00731D0548E800237130 /* SPFloatButtonSubButton.m */; };
+		344F007A1D054AE200237130 /* SPFloatButtonRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 344F00791D054AE200237130 /* SPFloatButtonRotationView.m */; };
+		344F007D1D0550F600237130 /* NormalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 344F007C1D0550F600237130 /* NormalView.m */; };
+		344F00841D05516500237130 /* DisperseSubViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344F007F1D05516500237130 /* DisperseSubViewViewController.m */; };
+		344F00851D05516500237130 /* HorizontalSubViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344F00811D05516500237130 /* HorizontalSubViewViewController.m */; };
+		344F00861D05516500237130 /* VerticalSubViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344F00831D05516500237130 /* VerticalSubViewViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		344F004D1D05470000237130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 344F002B1D05470000237130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 344F00321D05470000237130;
+			remoteInfo = SPFloatButtonDemo;
+		};
+		344F00581D05470000237130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 344F002B1D05470000237130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 344F00321D05470000237130;
+			remoteInfo = SPFloatButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		344F00331D05470000237130 /* SPFloatButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPFloatButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		344F00371D05470000237130 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		344F00391D05470000237130 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		344F003A1D05470000237130 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		344F003C1D05470000237130 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		344F003D1D05470000237130 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		344F00401D05470000237130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		344F00421D05470000237130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		344F00451D05470000237130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		344F00471D05470000237130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		344F004C1D05470000237130 /* SPFloatButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPFloatButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		344F00501D05470000237130 /* SPFloatButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPFloatButtonDemoTests.m; sourceTree = "<group>"; };
+		344F00521D05470000237130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		344F00571D05470000237130 /* SPFloatButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPFloatButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		344F005B1D05470000237130 /* SPFloatButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPFloatButtonDemoUITests.m; sourceTree = "<group>"; };
+		344F005D1D05470000237130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		344F006C1D0547A000237130 /* SPFloatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPFloatButton.h; sourceTree = "<group>"; };
+		344F006D1D0547A000237130 /* SPFloatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPFloatButton.m; sourceTree = "<group>"; };
+		344F00721D0548E800237130 /* SPFloatButtonSubButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPFloatButtonSubButton.h; sourceTree = "<group>"; };
+		344F00731D0548E800237130 /* SPFloatButtonSubButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPFloatButtonSubButton.m; sourceTree = "<group>"; };
+		344F00781D054AE200237130 /* SPFloatButtonRotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPFloatButtonRotationView.h; sourceTree = "<group>"; };
+		344F00791D054AE200237130 /* SPFloatButtonRotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPFloatButtonRotationView.m; sourceTree = "<group>"; };
+		344F007B1D0550F600237130 /* NormalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalView.h; sourceTree = "<group>"; };
+		344F007C1D0550F600237130 /* NormalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalView.m; sourceTree = "<group>"; };
+		344F007E1D05516500237130 /* DisperseSubViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisperseSubViewViewController.h; sourceTree = "<group>"; };
+		344F007F1D05516500237130 /* DisperseSubViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisperseSubViewViewController.m; sourceTree = "<group>"; };
+		344F00801D05516500237130 /* HorizontalSubViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalSubViewViewController.h; sourceTree = "<group>"; };
+		344F00811D05516500237130 /* HorizontalSubViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalSubViewViewController.m; sourceTree = "<group>"; };
+		344F00821D05516500237130 /* VerticalSubViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalSubViewViewController.h; sourceTree = "<group>"; };
+		344F00831D05516500237130 /* VerticalSubViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalSubViewViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		344F00301D05470000237130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344F00491D05470000237130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344F00541D05470000237130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		344F002A1D05470000237130 = {
+			isa = PBXGroup;
+			children = (
+				344F00351D05470000237130 /* SPFloatButtonDemo */,
+				344F004F1D05470000237130 /* SPFloatButtonDemoTests */,
+				344F005A1D05470000237130 /* SPFloatButtonDemoUITests */,
+				344F00341D05470000237130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		344F00341D05470000237130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				344F00331D05470000237130 /* SPFloatButtonDemo.app */,
+				344F004C1D05470000237130 /* SPFloatButtonDemoTests.xctest */,
+				344F00571D05470000237130 /* SPFloatButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		344F00351D05470000237130 /* SPFloatButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				344F00691D05478300237130 /* SPFloatButton */,
+				344F006A1D05478300237130 /* View */,
+				344F006B1D05478300237130 /* ViewController */,
+				344F00391D05470000237130 /* AppDelegate.h */,
+				344F003A1D05470000237130 /* AppDelegate.m */,
+				344F003C1D05470000237130 /* ViewController.h */,
+				344F003D1D05470000237130 /* ViewController.m */,
+				344F003F1D05470000237130 /* Main.storyboard */,
+				344F00421D05470000237130 /* Assets.xcassets */,
+				344F00441D05470000237130 /* LaunchScreen.storyboard */,
+				344F00471D05470000237130 /* Info.plist */,
+				344F00361D05470000237130 /* Supporting Files */,
+			);
+			path = SPFloatButtonDemo;
+			sourceTree = "<group>";
+		};
+		344F00361D05470000237130 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				344F00371D05470000237130 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		344F004F1D05470000237130 /* SPFloatButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				344F00501D05470000237130 /* SPFloatButtonDemoTests.m */,
+				344F00521D05470000237130 /* Info.plist */,
+			);
+			path = SPFloatButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		344F005A1D05470000237130 /* SPFloatButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				344F005B1D05470000237130 /* SPFloatButtonDemoUITests.m */,
+				344F005D1D05470000237130 /* Info.plist */,
+			);
+			path = SPFloatButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+		344F00691D05478300237130 /* SPFloatButton */ = {
+			isa = PBXGroup;
+			children = (
+				344F006C1D0547A000237130 /* SPFloatButton.h */,
+				344F006D1D0547A000237130 /* SPFloatButton.m */,
+				344F00721D0548E800237130 /* SPFloatButtonSubButton.h */,
+				344F00731D0548E800237130 /* SPFloatButtonSubButton.m */,
+				344F00781D054AE200237130 /* SPFloatButtonRotationView.h */,
+				344F00791D054AE200237130 /* SPFloatButtonRotationView.m */,
+			);
+			path = SPFloatButton;
+			sourceTree = "<group>";
+		};
+		344F006A1D05478300237130 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				344F007B1D0550F600237130 /* NormalView.h */,
+				344F007C1D0550F600237130 /* NormalView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		344F006B1D05478300237130 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				344F007E1D05516500237130 /* DisperseSubViewViewController.h */,
+				344F007F1D05516500237130 /* DisperseSubViewViewController.m */,
+				344F00801D05516500237130 /* HorizontalSubViewViewController.h */,
+				344F00811D05516500237130 /* HorizontalSubViewViewController.m */,
+				344F00821D05516500237130 /* VerticalSubViewViewController.h */,
+				344F00831D05516500237130 /* VerticalSubViewViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		344F00321D05470000237130 /* SPFloatButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344F00601D05470000237130 /* Build configuration list for PBXNativeTarget "SPFloatButtonDemo" */;
+			buildPhases = (
+				344F002F1D05470000237130 /* Sources */,
+				344F00301D05470000237130 /* Frameworks */,
+				344F00311D05470000237130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPFloatButtonDemo;
+			productName = SPFloatButtonDemo;
+			productReference = 344F00331D05470000237130 /* SPFloatButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		344F004B1D05470000237130 /* SPFloatButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344F00631D05470000237130 /* Build configuration list for PBXNativeTarget "SPFloatButtonDemoTests" */;
+			buildPhases = (
+				344F00481D05470000237130 /* Sources */,
+				344F00491D05470000237130 /* Frameworks */,
+				344F004A1D05470000237130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				344F004E1D05470000237130 /* PBXTargetDependency */,
+			);
+			name = SPFloatButtonDemoTests;
+			productName = SPFloatButtonDemoTests;
+			productReference = 344F004C1D05470000237130 /* SPFloatButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		344F00561D05470000237130 /* SPFloatButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344F00661D05470000237130 /* Build configuration list for PBXNativeTarget "SPFloatButtonDemoUITests" */;
+			buildPhases = (
+				344F00531D05470000237130 /* Sources */,
+				344F00541D05470000237130 /* Frameworks */,
+				344F00551D05470000237130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				344F00591D05470000237130 /* PBXTargetDependency */,
+			);
+			name = SPFloatButtonDemoUITests;
+			productName = SPFloatButtonDemoUITests;
+			productReference = 344F00571D05470000237130 /* SPFloatButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		344F002B1D05470000237130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SMartP;
+				TargetAttributes = {
+					344F00321D05470000237130 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RHFP7Q55SY;
+					};
+					344F004B1D05470000237130 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RHFP7Q55SY;
+						TestTargetID = 344F00321D05470000237130;
+					};
+					344F00561D05470000237130 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RHFP7Q55SY;
+						TestTargetID = 344F00321D05470000237130;
+					};
+				};
+			};
+			buildConfigurationList = 344F002E1D05470000237130 /* Build configuration list for PBXProject "SPFloatButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 344F002A1D05470000237130;
+			productRefGroup = 344F00341D05470000237130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				344F00321D05470000237130 /* SPFloatButtonDemo */,
+				344F004B1D05470000237130 /* SPFloatButtonDemoTests */,
+				344F00561D05470000237130 /* SPFloatButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		344F00311D05470000237130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344F00461D05470000237130 /* LaunchScreen.storyboard in Resources */,
+				344F00431D05470000237130 /* Assets.xcassets in Resources */,
+				344F00411D05470000237130 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344F004A1D05470000237130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344F00551D05470000237130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		344F002F1D05470000237130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344F00741D0548E800237130 /* SPFloatButtonSubButton.m in Sources */,
+				344F003E1D05470000237130 /* ViewController.m in Sources */,
+				344F00861D05516500237130 /* VerticalSubViewViewController.m in Sources */,
+				344F007A1D054AE200237130 /* SPFloatButtonRotationView.m in Sources */,
+				344F007D1D0550F600237130 /* NormalView.m in Sources */,
+				344F003B1D05470000237130 /* AppDelegate.m in Sources */,
+				344F00841D05516500237130 /* DisperseSubViewViewController.m in Sources */,
+				344F00381D05470000237130 /* main.m in Sources */,
+				344F00851D05516500237130 /* HorizontalSubViewViewController.m in Sources */,
+				344F006E1D0547A000237130 /* SPFloatButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344F00481D05470000237130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344F00511D05470000237130 /* SPFloatButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344F00531D05470000237130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344F005C1D05470000237130 /* SPFloatButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		344F004E1D05470000237130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 344F00321D05470000237130 /* SPFloatButtonDemo */;
+			targetProxy = 344F004D1D05470000237130 /* PBXContainerItemProxy */;
+		};
+		344F00591D05470000237130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 344F00321D05470000237130 /* SPFloatButtonDemo */;
+			targetProxy = 344F00581D05470000237130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		344F003F1D05470000237130 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				344F00401D05470000237130 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		344F00441D05470000237130 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				344F00451D05470000237130 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		344F005E1D05470000237130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		344F005F1D05470000237130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		344F00611D05470000237130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SPFloatButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMartP.SPFloatButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		344F00621D05470000237130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SPFloatButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMartP.SPFloatButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		344F00641D05470000237130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SPFloatButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMartP.SPFloatButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPFloatButtonDemo.app/SPFloatButtonDemo";
+			};
+			name = Debug;
+		};
+		344F00651D05470000237130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SPFloatButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMartP.SPFloatButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPFloatButtonDemo.app/SPFloatButtonDemo";
+			};
+			name = Release;
+		};
+		344F00671D05470000237130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SPFloatButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMartP.SPFloatButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SPFloatButtonDemo;
+			};
+			name = Debug;
+		};
+		344F00681D05470000237130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SPFloatButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMartP.SPFloatButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SPFloatButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		344F002E1D05470000237130 /* Build configuration list for PBXProject "SPFloatButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344F005E1D05470000237130 /* Debug */,
+				344F005F1D05470000237130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344F00601D05470000237130 /* Build configuration list for PBXNativeTarget "SPFloatButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344F00611D05470000237130 /* Debug */,
+				344F00621D05470000237130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344F00631D05470000237130 /* Build configuration list for PBXNativeTarget "SPFloatButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344F00641D05470000237130 /* Debug */,
+				344F00651D05470000237130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344F00661D05470000237130 /* Build configuration list for PBXNativeTarget "SPFloatButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344F00671D05470000237130 /* Debug */,
+				344F00681D05470000237130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 344F002B1D05470000237130 /* Project object */;
+}
