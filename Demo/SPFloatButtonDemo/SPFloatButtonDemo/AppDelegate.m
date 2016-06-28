@@ -118,7 +118,7 @@
 #pragma mark - FloatViewDelegate
 
 //主View点击事件
-- (void)floatViewClicked
+- (void)floatButtonClicked
 {
     NSArray *vcArray = [(UITabBarController *)self.window.rootViewController viewControllers];
     UINavigationController *nav = (UINavigationController *)vcArray[0];
@@ -133,7 +133,7 @@
 }
 
 //子View点击事件，通过添加时传入的tag判断具体点击的子View
-- (void)floatViewSubViewClickedWithTag:(NSInteger)tag
+- (void)floatButtonSubButtonClickedWithTag:(NSInteger)tag
 {
     NSArray *vcArray = [(UITabBarController *)self.window.rootViewController viewControllers];
     UINavigationController *nav = (UINavigationController *)vcArray[0];
